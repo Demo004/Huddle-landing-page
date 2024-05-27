@@ -1,0 +1,10 @@
+/* background */
+.grow-background{
+    background: url(/public/bg-section-top-desktop-1.svg) no-repeat center center / cover; 
+
+
+}
+
+.grow__img{
+    padding-top: 2rem;
+}

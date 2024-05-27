@@ -1,0 +1,153 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: var(--size-xl);
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+.hero__description {
+  font-size: var(--size-sm);
+  max-width: 60ch;
+}
+
+.hero__btn {
+  margin-top: 2.2rem;
+  display: inline-block;
+  background-color: var(--clr-pink);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 2.7rem;
+  padding-right: 2.7rem;
+  border-radius: 3.125rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  /* text- */
+  font-size: var(--size-xs);
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--clr-pale-blue);
+}
+
+.hero__img {
+  margin-top: 5rem;
+  width: 18.75rem;
+}
+
+.hero__counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  margin-top: 2rem;
+}
+
+.hero__counter-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.img-counter {
+  width: 20px;
+  margin-right: 4.8rem;
+}
+
+.title__counter {
+  font-size: var(--size-4xl);
+}
+
+.counter__description {
+  font-size: var(--size-sm);
+  font-weight: 500;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+  .hero__title {
+    font-size: var(--size-2xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-base);
+    max-width: 60ch;
+  }
+
+  .hero__img {
+    width: 450px;
+  }
+
+  .hero__btn {
+    font-size: var(--size-sm);
+  }
+
+  .hero__counter {
+    flex-direction: row;
+    align-items: start;
+  }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .hero__title {
+    font-size: var(--size-3xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-xl);
+    max-width: 60ch;
+  }
+
+  .hero__img {
+    width: 700px;
+  }
+
+  .hero__btn {
+    font-size: var(--size-base);
+  }
+
+  /*  */
+
+  .hero__counter {
+    flex-direction: row;
+    align-items: start;
+    gap: 10rem;
+  }
+
+  .img-counter {
+    width: 30px;
+    margin-right: 6.5rem;
+  }
+
+  .title__counter {
+    font-size: var(--size-5xl);
+  }
+
+  .counter__description {
+    font-size: var(--size-base);
+    font-weight: 500;
+  }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
