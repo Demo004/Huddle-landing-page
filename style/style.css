@@ -40,7 +40,7 @@ html {
 
 body {
   font-family: "General Sans", sans-serif;
-  background-color: var(--clr-dark);
+  background-color: var(--clr-pale-blue);
   color: var(--clr-dark-cyan);
 }
 
@@ -82,6 +82,11 @@ button {
   background: none;
   cursor: pointer;
   color: inherit;
+}
+
+.background{
+  background-image: url(/bg-section-bottom-mobile-1.svg);
+  height: 50%;
 }
 
 /* a {

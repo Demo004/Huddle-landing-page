@@ -10,7 +10,7 @@
   font-size: var(--size-xl);
   font-weight: 800;
   text-transform: capitalize;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .hero__description {
@@ -19,16 +19,16 @@
 }
 
 .hero__btn {
-  margin-top: 2.2rem;
+  margin-top: 35.2px;
   display: inline-block;
   background-color: var(--clr-pink);
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-  padding-left: 2.7rem;
-  padding-right: 2.7rem;
-  border-radius: 3.125rem;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding-top: 12.8px;
+  padding-bottom: 12.8px;
+  padding-left: 43.2px;
+  padding-right: 43.2px;
+  border-radius: 50px;
+  box-shadow: 0rem .625rem .9375rem -0.1875rem rgba(0, 0, 0, 0.1),
+    0rem .625rem .9375rem -0.1875rem rgba(0, 0, 0, 0.1);
   user-select: none;
   /* text- */
   font-size: var(--size-xs);
@@ -37,9 +37,14 @@
   color: var(--clr-pale-blue);
 }
 
+.hero__btn:hover {
+  transform: translatey(20%);
+  transition: all 0.5s ease-in-out;
+  }
+
 .hero__img {
-  margin-top: 5rem;
-  width: 18.75rem;
+  margin-top: 80px;
+  width: 300px;
 }
 
 .hero__counter {
@@ -47,8 +52,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3.5rem;
-  margin-top: 2rem;
+  gap: 56px;
+  margin-top: 32px;
 }
 
 .hero__counter-1 {
@@ -56,12 +61,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 8px;
 }
 
 .img-counter {
-  width: 20px;
-  margin-right: 4.8rem;
+  width: 1.25rem;
+  margin-right: 76.8px;
 }
 
 .title__counter {
@@ -74,10 +79,10 @@
 }
 
 /* xs */
-/* @media (min-width: 475px) {} */
+/* @media (min-width: 29.6875rem) {} */
 
 /* sm */
-@media (min-width: 640px) {
+@media (min-width: 40rem) {
   .hero__title {
     font-size: var(--size-2xl);
   }
@@ -88,7 +93,7 @@
   }
 
   .hero__img {
-    width: 450px;
+    width: 28.125rem;
   }
 
   .hero__btn {
@@ -102,21 +107,18 @@
 }
 
 /* md */
-/* @media (min-width: 768px) {} */
+/* @media (min-width: 48rem) {} */
 
 /* lg */
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .hero__title {
     font-size: var(--size-3xl);
   }
 
-  .hero__description {
-    font-size: var(--size-xl);
-    max-width: 60ch;
-  }
+  
 
   .hero__img {
-    width: 700px;
+    width: 43.75rem;
   }
 
   .hero__btn {
@@ -128,12 +130,12 @@
   .hero__counter {
     flex-direction: row;
     align-items: start;
-    gap: 10rem;
+    gap: 160px;
   }
 
   .img-counter {
-    width: 30px;
-    margin-right: 6.5rem;
+    width: 1.875rem;
+    margin-right: 104px;
   }
 
   .title__counter {
@@ -147,7 +149,7 @@
 }
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+/* @media (min-width: 80rem) {} */
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+/* @media (min-width: 96rem) {} */
