@@ -1,4 +1,132 @@
-.subscribe__img{
-    
-
+.subscribe__img {
+  position: relative;
+  width: 100%;
 }
+
+.subscribe__container {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  background-color: var(--clr-dark-cyan);
+  color: var(--clr-pale-blue);
+  min-height: 60dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  gap: 0.8rem;
+}
+
+.subscribe__sub-title {
+  font-size: var(--size-base);
+}
+
+.subscribe__description {
+  font-size: var(--size-sm);
+  max-width: 60ch;
+}
+
+.subscriber__input {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.subscribe__email {
+  min-height: 5.8dvh;
+  border-radius: 0.3125rem;
+  border: none;
+}
+
+.subscribe__email::placeholder {
+  font-size: var(--size-sm);
+  padding-left: 1rem;
+  font-style: inherit;
+}
+
+.subscribe__btn {
+  text-align: right;
+  width: fit-content;
+  margin-left: auto;
+  display: inline-block;
+  background-color: var(--clr-pink);
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 2.7rem;
+  padding-right: 2.7rem;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  /* text- */
+  font-size: var(--size-xs);
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--clr-pale-blue);
+}
+
+/*  */
+.subscribe__wrapper {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+}
+
+.subscribe__wrapper-img {
+  width: 150px;
+}
+
+.subscribe__wrapper-description {
+  font-size: var(--size-sm);
+  max-width: 30ch;
+  margin-bottom: 2rem;
+}
+
+.subscribe__wrapper-contact {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  justify-content: start;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+.contact__info {
+  font-size: var(--size-sm);
+}
+
+.icons {
+  width: 15px;
+}
+
+.subscribe__wrapper-icons {
+  margin-top: 1rem;
+  display: flex;
+  width: 1.625rem;
+  gap: 0.7rem;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
