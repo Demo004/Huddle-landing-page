@@ -160,6 +160,11 @@
     width: 20rem;
   }
 
+  .subscribe__btn {
+    /* text- */
+    font-size: var(--size-base);
+  }
+
   /*  */
   .subscribe__wrapper-img {
     width: 200px;
